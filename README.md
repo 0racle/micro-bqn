@@ -1,6 +1,6 @@
 # BQN support for Micro
 
-[BQN](https://mlochbaum.github.io/BQN/) support for the [Micro](https://micro-editor.github.io/).
+[BQN](https://mlochbaum.github.io/BQN/) support for the [Micro](https://micro-editor.github.io/) editor.
 
 This plugin provides a syntax file for BQN, as well as supporting the Backslash-prefix key mappings. 
 
