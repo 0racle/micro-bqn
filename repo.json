@@ -1,0 +1,16 @@
+[{
+    "Name": "bqn",
+    "Description": "BQN support for the Micro editor",
+    "Tags": ["bqn", "keymap", "syntax", "array"],
+    "Website": "https://github.com/0racle/micro-bqn",
+    "License": "MIT",
+    "Versions": [
+        {
+            "Version": "1.0.0",
+            "Url": "https://github.com/0racle/micro-bqn/archive/refs/tags/v1.0.0.zip",
+            "Require": {
+                "micro": ">=2.0.13"
+            }
+        }
+    ]
+}]

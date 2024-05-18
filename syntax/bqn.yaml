@@ -1,0 +1,35 @@
+filetype: bqn
+
+detect:
+  filename: "\\.bqn$"
+
+rules:
+
+  - comment:
+      start: "#"
+      end: "$"
+      rules: []
+
+  - identifier: "•[A-Z]\\w*"
+  - identifier: "\\b[A-Z]\\w*"
+  - identifier.var: "\\b_\\w+"
+
+  - constant.number: "\\b([0-9]*[.])?[0-9]+"
+  - constant.number: "[¯π∞]"
+
+  - constant.string: "'.'"
+  - constant.string:
+      start: '"'
+      end: '"'
+      rules: []
+
+  - constant.specialChar: "[@·]"
+
+  - type.keyword: "[-𝔽𝔾𝕎𝕏𝕊+\\\\×÷⋆√⌊⌈|¬∧∨<>≠=≤≥≡≢⊣⊢⥊∾≍⋈↑↓↕«»⌽⍉/⍋⍒⊏⊑⊐⊒∊⍷⊔!⍕⍎]"
+
+  - preproc: "[∘○⊸⟜⌾⊘◶⎊⎉⚇⍟]"
+
+  - special: "[˙˜˘¨⌜⁼´˝`\\{\\}]"
+
+  - symbol: "[⋄,⟨⟩\\[\\]‿()]"
+
